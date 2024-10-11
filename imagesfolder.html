@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lochquarry Outdoor Centre Gallery</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel= "stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <title>imagesfolder</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
     <header>
         <h1>Lochquarry Outdoor Centre</h1>
-            <div class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="activities.html">Activities</a></li>
-                    <li><a href="booking.html">Booking</a></li>
-                    <li><a href="imagesfolder.html">Gallery</a></li>
-                    <li class="social-icons">
-                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                </ul>
-            </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="imagesfolder.html">Gallery</a></li>
+                <li class="social-icons">
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <main>
-
         <section class="galleries">
+            <h2>Activity Galleries</h2>
+
             <!-- Rope Gallery -->
-            <div class="gallery">
+            <article class="gallery">
+                <h3>Rope Activities</h3> 
                 <div class="gallery__image-thumbnail">
                     <img src="rope.png" alt="Rope Activity">
                 </div>
@@ -41,21 +43,22 @@
                         <div><img src="Abseiling.png" alt="Abseiling"></div>
                     </div>
                     <div class="gallery__info">
-                        <p>Rope </p>
+                        <p>Rope Activities</p>
                         <small><i class="uil uil-scenery"></i>6</small>
                     </div>
                 </div>
-            </div>
-        
-            <!-- watersports Gallery -->
+            </article>
+
+            <!-- Watersports Gallery -->
             <article class="gallery">
+                <h3>Watersports</h3> 
                 <div class="gallery__image-thumbnail">
                     <img src="Kayaking.png" alt="Water Activity">
                 </div>
                 <div class="gallery__images-more">
                     <div class="gallery__thumbnails">
                         <div><img src="canoeing.png" alt="Canoeing"></div>
-                        <div><img src="canoeing1.jpg" alt="canoeing1 "></div>
+                        <div><img src="canoeing1.jpg" alt="canoeing1"></div>
                         <div><img src="canoeing2.jpg" alt="Canoeing2"></div>
                     </div>
                     <div class="gallery__info">
@@ -64,9 +67,10 @@
                     </div>
                 </div>
             </article>
-        
-            <!-- land based Gallery -->
+
+            <!-- Land Based Gallery -->
             <article class="gallery">
+                <h3>Land-Based Activities</h3> 
                 <div class="gallery__image-thumbnail">
                     <img src="Imagesea.png" alt="hillwalking4">
                 </div>
@@ -77,13 +81,15 @@
                         <div><img src="hillwalking3.jpg" alt="hillwalking3.jpg"></div>
                     </div>
                     <div class="gallery__info">
-                        <p>Land based</p>
+                        <p>Land-Based</p>
                         <small><i class="uil uil-scenery"></i>6</small>
                     </div>
                 </div>
             </article>
-            <!-- Outdoor based Gallery -->
+
+            <!-- Outdoor Based Gallery -->
             <article class="gallery">
+                <h3>Outdoor Activities</h3> 
                 <div class="gallery__image-thumbnail">
                     <img src="archery.png" alt="archery">
                 </div>
@@ -99,41 +105,34 @@
                     </div>
                 </div>
             </article>
-            </section>
-            <section class="video-container">
-                <h3>Watch Our Activities in Action</h3>
-                <div class="youtube-box">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="video-container">
+            <h3>Watch Our Activities in Action</h3>
+            <div class="youtube-box">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                        title="YouTube video player" style="border: none;" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"This was the best trip ever!" - Sarah, 12</p>
+                    <span class="star filled">★★★★★</span>
                 </div>
-            </section>
-                <section class="top-banner">
-                    <div class="banner-content">
-                        <h2>Join Us for an adventure at Lochquarry Outdoor Center!</h2>
-                        <p> </p>
-                        
-                        <a href="activities.html" class="cta-button">See our activites here</a>
-                    </div>
-            </section>
-         <section class="testimonials-section">
-        <h2>What Our Customers Say</h2>
-        <div class="testimonials-grid">
-            <div class="testimonial">
-                <p>"This was the best trip ever!" - Sarah, 12</p>
-                <span class="star filled">*****</span>
+                <div class="testimonial">
+                    <p>"Loved every second, can't wait to return!" - Mark, 15</p>
+                    <span class="star filled">★★★★★</span>
+                </div>
+                <div class="testimonial">
+                    <p>"The instructors were fantastic!" - Emma, 10</p>
+                    <span class="star filled">★★★★★</span>
+                </div>
             </div>
-            <div class="testimonial">
-                <p>"Loved every second, can't wait to return!" - Mark, 15</p>
-                <span class="star filled">*****</span>
-            </div>
-            <div class="testimonial">
-                <p>"The instructors were fantastic!" - Emma, 10</p>
-                <span class="star filled">*****</span>
-            </div>
-        </div>
-    </section>
-   
+        </section>
     </main>
 
     <footer>
@@ -145,8 +144,9 @@
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
         <p>Opening Hours: Mon-Sun 09:00-18:00</p>
-        <div class="developer">&copy;Fortus Computus Ltd </div>
+        <div class="developer">&copy;Fortus Computus Ltd</div>
     </footer>
+
     <script src="scripts.js"></script>
 </body>
 </html>
